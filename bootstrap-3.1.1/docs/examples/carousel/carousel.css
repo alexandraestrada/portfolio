@@ -1,16 +1,15 @@
-/* GLOBAL 
+/* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
-  background-color: black;
 }
 
 
 
-/* NAVBAR
+/* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -21,7 +20,6 @@ body {
   left: 0;
   z-index: 20;
 }
-
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
@@ -34,17 +32,14 @@ body {
 }
 
 
-
-/* CAROUSEL
+/* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
   height: 500px;
   margin-bottom: 60px;
-
 }
-
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -53,8 +48,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  /*background-color: #777;*/
-  
+  background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -66,15 +60,9 @@ body {
 
 
 
-
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-#div-break {
-  height: 50px;
-  
-}
 /* Pad the edges of the mobile views a bit */
 .marketing {
   padding-right: 15px;
@@ -93,16 +81,7 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-.circle-container {
-  height: 200px;
-}
-.marketing-image {
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-  background-color:white;
-  border-radius: 100px;
-}
+
 
 /* Featurettes
 ------------------------- */
@@ -133,7 +112,7 @@ body {
 
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
@@ -146,6 +125,7 @@ body {
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
+    border-radius: 4px;
   }
 
   /* Bump up size of carousel content */
