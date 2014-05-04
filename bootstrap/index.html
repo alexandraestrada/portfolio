@@ -105,31 +105,31 @@
     <!-- About me -->
     <!-- ================================================== -->
 
-    <div class="container-fluid aboutme-cont">
+    <div class="container aboutme-cont">
       <div class= "row aboutme-row">
         <div class="col-lg-12 aboutme-title">
           <h3 id="aboutme-header">ABOUT ME</h3><br />
-          <h4 id="aboutme-subheader"> Web Designer, Business Manager, Entrepreneur</h4>
+          <p id="aboutme-subheader"> Full Stack Web Development. Get your project done fast.</p>
           <hr id="aboutme-line"> </hr><br /> <br />
-
         </div>
+      </div>
       <div class="row aboutme-content">
         <div class="col-lg-4">
           <div id="aboutme-image">
-            <img src="">
+            <img class="kitten-color"src="http://placekitten.com/350/350">
           </div>
         </div>
         <div class="col-lg-4 aboutme-col">
-          <h4 id="col1-header">Build your website, now!</h4>
+          <p id="col1-header">About Me</p>
+          <p id="col1-content"> Alexandra Estrada specializes in full stack web development including web apps, single page apps, and MVPs. Get your project done with the most up to date web development frameworks including Ruby on Rails and Angular JS. <br /><br /> <span id="content-header">Type of Work </span><br />Available for freelance, contract, part-time, full-time. Working knowledge of HTML5, CSS3, Javascript, JQuery, Angular JS, Twitter Bootstrap, Ruby on Rails, MongoDB, and PostgreSQL.</p>
         </div>
         <div class="col-lg-4 aboutme-col">
-          <h4 id="col2-header">Contact me</h4>
-        </div>
-      <div>
-        </div>
+          <p id="col2-header">Need and MVP?</p>
+          <p id="col2-content"> Need an Minimum Viable Product (MVP) or splash page built? With quick and easy implementation, take your idea and turn it into a reality. <br /> <br /> With a business development background and hands-on experience working with startups from the ground up, I will get your MVP noticed. </p>
         </div>
       </div>
     </div>
+   
 
     <!-- My Services 
     ================================================== -->
@@ -177,26 +177,26 @@
             <i class="icon-pencil"></i> 
             <p class="services-subtitle"><br /> UX </p>
             <div class="services-info-container">
-              <p class="services-info">User Experience matters. Built with customer exerience in mind.</p>
+              <p class="services-info"> Built with user exerience in mind.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
  
+<!--  Featurettes
+ ----------------------------------------------- -->
+
+    
     <div class="container marketing" id="">
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider" id="portfolio">
-
+    <hr class="featurette-divider" id="portfolio">
       <div class="row featurette" >
         <div class="col-md-7">
           <h2 class="featurette-heading">Front End Web Design. <!-- <span class="text-muted">It'll blow your mind.</span> --></h2>
           <p class="lead"></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placekitten.com/500/500" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -204,7 +204,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placekitten.com/500/500" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Back End Web Design. <!-- <span class="text-muted">See for yourself.</span> --></h2>
@@ -220,14 +220,65 @@
           <p class="lead"></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placekitten.com/500/500" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
+    </div>
 
+      <!-- Contact Information
+      ============================================== -->
+    <div class="container contactme-cont">
+      <div class= "row contactme-row">
+        <div class="col-lg-12 contactme-title">
+          <h3 id="contactme-header">Contact Me</h3><br />
+          <h4 id="contactme-subheader"> Drop a line. Say Hello</h4>
+          <hr id="contactme-line"> </hr><br /> <br />
+        </div>
+      </div>
+      <div class="row contactme-content">
+        <div class="col-lg-4">
+          <div id="contactme-image">
+            <img class="alex-color" src="dist/images/alex.jpg">
+          </div>
+        </div>
+        <div class="col-lg-4 contactme-col">
+          <h4 class="contactme-col1-head">Contact Information </h4>
+          <p id="contactme-info">Alexandra Estrada<br /> Los Angeles, CA<br /> estrada.ae@gmail.com</p>
+          <!-- <h4 class="contactme-col1-head">Get a Quote</h4> -->
+        </div>
+        <div class="col-lg-4 contactme-col">
+          <h4 id="col2-header"> Get a Quote</h4>
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputName">Full Name</label>
+              <div class="controls">
+                <input type="password" class = "contact-form" id="inputPassword" placeholder="Full Name">
+              </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">Email</label>
+                <div class="controls">
+                    <input type="text" class = "contact-form" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">Comment</label>
+                <div class="controls">
+                    <textarea class = "contact-form" row="4" cols="50" id="inputComment" placeholder="Comment"></textarea>
+                </div>
+            </div> 
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn">Sign in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
       <!-- FOOTER -->
       <footer>
